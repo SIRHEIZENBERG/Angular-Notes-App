@@ -1,0 +1,86 @@
+.banner {
+  height: 600px;
+  background-image: url(../assets/images/write-banner.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+.banner-txt {
+  color: rgb(43, 40, 40);
+}
+
+.header-section-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.add-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.del-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  background-color: #f5f5f5;
+  color: #242424;
+  padding: 0.15rem 0.5rem;
+  min-height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+}
+
+.add-Note-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+input:focus {
+  border-bottom: 2px solid #5b5fc7;
+  border-radius: 4px 4px 2px 2px;
+}
+
+input:hover {
+  outline: 1px solid lightgrey;
+}
+
+.note-card {
+  background-color: gold;
+  padding: 10px;
+  margin: 20px;
+}
+
+.note-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .note-card:hover {
+  border: #5b5fc7;
+  border-radius: 20px;
+} */
